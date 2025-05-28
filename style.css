@@ -28,3 +28,9 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+
+body {
+  background-image: url("severance-off.jpg");
+  background-repeat: no-repeat;
+  background-size: 200vh 100vh;
+}
