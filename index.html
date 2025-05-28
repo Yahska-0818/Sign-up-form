@@ -26,8 +26,26 @@
                     <label for="last-name">Last Name:</label>
                     <input type="text" id="last-name" name="last-name" required>
                 </p>
+                <p class="form-part">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p class="form-part">
+                    <label for="number">Phone Number:</label>
+                    <input type="tel" id="number" name="number" pattern="[0-9]{10}" required maxlength="10" placeholder="Numbers only">
+                </p>
+                <p class="form-part">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
+                <p class="form-part">
+                    <label for="confirm">Confirm Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </p>
             </div>
+            <button type="submit">Submit</button>
         </form>
+        <p class="login">Already have an account? <span>Log in</span></p>
     </div>
 </body>
 </html>
