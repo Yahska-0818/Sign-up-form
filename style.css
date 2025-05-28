@@ -34,13 +34,15 @@ body {
   background-repeat: no-repeat;
   background-size: 200vh 100vh;
   display: flex;
+  gap: 1vh;
 }
 
 .form {
-  background-color: #f8f9f9;
-  opacity: 0.5;
+  background-color: #f1efeb;
+  opacity: 0.9;
   width: 115vh;
   height: 98.5vh;
+  border-radius: 1vh;
 }
 
 .banner {
@@ -50,7 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
-  background-color: #f4f5f3;
+  background-color: #f1efeb;
   border-radius: 1vh;
 }
 
