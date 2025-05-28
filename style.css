@@ -33,4 +33,29 @@ body {
   background-image: url("severance-off.jpg");
   background-repeat: no-repeat;
   background-size: 200vh 100vh;
+  display: flex;
+}
+
+.form {
+  background-color: #f8f9f9;
+  opacity: 0.5;
+  width: 115vh;
+  height: 98.5vh;
+}
+
+.banner {
+  width: 85vh;
+  height: 18.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: #f4f5f3;
+  border-radius: 1vh;
+}
+
+.banner img {
+  height: 15vh;
+  width: 50vh;
+  border-radius: 1vh;
 }
